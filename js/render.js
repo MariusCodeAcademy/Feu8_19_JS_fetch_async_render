@@ -9,6 +9,7 @@ const urlUsers = 'https://jsonplaceholder.typicode.com/users';
 fetch(urlUsers)
   .then((response) => response.json())
   .then((userDataArr) => {
+    /////// turim duomenis tik cia
     console.log('userDataArr ===', userDataArr);
     render(userDataArr);
   })
